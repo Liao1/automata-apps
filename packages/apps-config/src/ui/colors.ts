@@ -15,6 +15,7 @@ const emptyColor = '#99999';
 // alphabetical
 const chainAleph = '#00CCAB';
 const chainApron = 'linear-gradient(45deg, #0099F7 0%, #2E49EB 100%)';
+const chainAutomataContextFree = '#EC7032';
 const chainBitCountry = '#191a2e';
 const chainBitCountryPioneer = '#000000';
 const chainBeastEave = '#900048';
@@ -106,6 +107,7 @@ const chainWestlake = 'linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 
 // alphabetical
 const nodeApron = 'linear-gradient(45deg, #0099F7 0%, #2E49EB 100%)';
 const nodeAres = '#E56239';
+const nodeAutomataContextFree = '#EC7032';
 const nodeBasilisk = '#9eec1b';
 const nodeBitCountry = '#191a2e';
 const nodeBifrost = '#5a25f0';
@@ -181,6 +183,7 @@ export const chainColors: Record<string, string> = Object.entries({
   'Aleph Zero Testnet': chainAleph,
   'Apron PC1': chainApron,
   'Ares Gladios': chainAresGladios,
+  'Automata ContextFree': chainAutomataContextFree,
   'Ares PC1': chainRoccoAres,
   'Beast Developer': chainBeastEave,
   bifrost: chainRoccoBifrost,
@@ -329,6 +332,7 @@ export const chainColors: Record<string, string> = Object.entries({
 // NOTE: This is as retrieved via the system.name RPC
 export const nodeColors = Object.entries({
   'Apron Node': nodeApron,
+  'Automata ContextFree Node': nodeAutomataContextFree,
   Basilisk: nodeBasilisk,
   'Bifrost Node': nodeBifrost,
   'Bit.Country Node': nodeBitCountry,

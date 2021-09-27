@@ -49,6 +49,7 @@ import nodeApron from './nodes/apron.png';
 import nodeAres from './nodes/ares.svg';
 import nodeAresGladios from './nodes/ares-gladios.svg';
 import nodeAresMars from './nodes/ares-mars.png';
+import nodeAutomataContextFree from './nodes/automata-contextfree.png';
 import nodeBasilisk from './nodes/basilisk.png';
 import nodeBeast from './nodes/beast.svg';
 import nodeBifrost from './nodes/bifrost.svg';
@@ -161,6 +162,7 @@ export const chainLogos = Object.entries({
   'Apron PC1': nodeApron,
   'Ares Gladios': nodeAresGladios,
   'Ares PC1': nodeAres,
+  'Automata ContextFree': nodeAutomataContextFree,
   'Beast Developer': nodeBeast,
   Bifrost: nodeBifrost,
   'Bifrost Asgard CC4': nodeBifrost,
@@ -295,6 +297,7 @@ export const nodeLogos = Object.entries({
   'Ares Gladios': nodeAresGladios,
   'Ares Node': nodeAres,
   'Ares Parachain Collator': nodeAres,
+  'Automata ContextFree Node': nodeAutomataContextFree,
   Basilisk: nodeBasilisk,
   'Beast Node': nodeBeast,
   Bifrost: nodeBifrost,
@@ -461,6 +464,7 @@ export const namedLogos: Record<string, unknown> = {
   alexander: nodePolkadot,
   altair: chainAltair,
   'Ares Gladios': nodeAresGladios,
+  'automata-contextfree': nodeAutomataContextFree,
   basilisk: nodeBasilisk,
   beast: nodeBeast,
   bifrost: nodeBifrost,

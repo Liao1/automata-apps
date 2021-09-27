@@ -142,12 +142,12 @@ const spec: Record<string, OverrideBundleDefinition> = {
   'chainx-parachain': chainx,
   clover,
   'clover-rococo': cloverRococo,
+  contextfree: automataContextFree,
   'crown-sterling': crownSterlingChain,
   crust,
   'crust-parachain': crust,
   'cumulus-subsocial-parachain': subsocial,
   'cumulus-test-parachain': testPara,
-  'contextfree': automataContextFree,
   datahighway: westlake,
   'datahighway-parachain': datahighwayParachain,
   dawn: eave,
@@ -239,7 +239,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   vodka,
   'web3games-node': web3games,
   'zcloak-network': zCloak,
-  zeitgeist: zeitgeist,
+  zeitgeist: zeitgeist
 };
 
 export default spec;
